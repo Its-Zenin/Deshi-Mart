@@ -1,6 +1,6 @@
 ﻿namespace Deshi_Mart
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,21 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             SuspendLayout();
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 18F);
+            AutoScaleDimensions = new SizeF(16F, 62F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 231, 151);
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(1280, 518);
-            Font = new Font("Consolas", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            ClientSize = new Size(1252, 673);
+            Font = new Font("Javanese Text", 16.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(6, 10, 6, 10);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Deshi Mart";
             WindowState = FormWindowState.Minimized;
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
